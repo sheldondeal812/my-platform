@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+// import { useState } from 'react'
+// import heroImg from './assets/hero.png'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
   return(
     <main>
-      <h1>Sheldon Deal <h1/>
-      
+      <h1>Sheldon Deal </h1>
+      <h2>Senior Capstone Production Platform Page Test </h2>
+      <p></p>
+      </main>
   )
 }
 
