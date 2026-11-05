@@ -5,7 +5,24 @@
 import './App.css'
 import profileImage from './assets/GameIcon.png'
 
+type ReportKind = "bug" | "feature";
+
+type Report = {
+  id: string
+  text: string
+  kind: ReportKind
+};
+
+
 function App() {
+
+  const sampleReport: Report = {
+    id: "1",
+    text: "Navigation link is broken",
+    kind: "bug",
+  }
+
+
   return(
     <main className="intro">
       <h1>Sheldon Deal </h1>
@@ -19,6 +36,13 @@ function App() {
       alt = "Profile"
       className = "profile-img"
       />
+      <section className="report-board">
+        <h2>Bugs & Feature Requests</h2>
+          <p>
+            {sampleReport.text} ({sampleReport.kind})
+          </p>
+      </section>
+
       
       </main>
 
