@@ -42,8 +42,6 @@ function App() {
             {sampleReport.text} ({sampleReport.kind})
           </p>
       </section>
-
-      
       </main>
 
       
