@@ -11,16 +11,16 @@ type Report = {
   id: string
   text: string
   kind: ReportKind
-}
+};
 
 
 function App() {
 
-const sampleReport: Report = {
-  id: "1",
-  text: "Navigation link is broken",
-  kind: "bug",
-}
+  const sampleReport: Report = {
+    id: "1",
+    text: "Navigation link is broken",
+    kind: "bug",
+  }
 
 
   return(
@@ -36,15 +36,12 @@ const sampleReport: Report = {
       alt = "Profile"
       className = "profile-img"
       />
-
       <section className="report-board">
         <h2>Bugs & Feature Requests</h2>
           <p>
             {sampleReport.text} ({sampleReport.kind})
           </p>
       </section>
-
-      
       </main>
 
       
